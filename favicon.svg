@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <style>path{fill:none;stroke-width:3;stroke-linecap:round}.s{stroke:#28577f}.h{stroke:#fff;stroke-width:8}@media(prefers-color-scheme:dark){.s{stroke:#93b8dc}.h{stroke:#151a22}}</style>
-  <path class="s" d="M8 4C8 16 24 16 24 28"/>
-  <path class="h" d="M24 4C24 16 8 16 8 28"/>
-  <path class="s" d="M24 4C24 16 8 16 8 28"/>
-</svg>
