@@ -3,11 +3,6 @@
 #  site automatically within a minute or two.
 # ---------------------------------------------------------------
 
-# Your GitHub Pages address. If your repository is called
-# <username>.github.io, this is https://<username>.github.io
-url: "https://USERNAME.github.io"
-baseurl: ""            # leave empty for a <username>.github.io repository
-
 title: "Tyler Franke"
 # Shown in search-engine results under the page title (aim for ~150 characters).
 description: "Tyler Franke is a PhD student in mathematics at Universität Hamburg working on integrable systems, skein theory and mathematical physics."
