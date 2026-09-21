@@ -1,11 +1,12 @@
 ---
 layout: default
 ---
-{% assign papers = site.data.papers | sort: "year" | reverse %}
-{% assign talks = site.data.talks | sort: "date" | reverse %}
-{% assign conferences = site.data.conferences | sort: "date" | reverse %}
-{% assign visits = site.data.visits | sort: "date" | reverse %}
-{% assign teaching = site.data.teaching %}
+{% assign none = "" | split: "" %}
+{% assign papers = site.data.papers | default: none | sort: "year" | reverse %}
+{% assign talks = site.data.talks | default: none | sort: "date" | reverse %}
+{% assign conferences = site.data.conferences | default: none | sort: "date" | reverse %}
+{% assign visits = site.data.visits | default: none | sort: "date" | reverse %}
+{% assign teaching = site.data.teaching | default: none %
 {% capture me %}<span class="me">{{ site.author.short_name }}</span>{% endcapture %}
 
 <header class="wrap site-nav">
