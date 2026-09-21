@@ -33,10 +33,10 @@ author:
 
 # Profile links: fill in any you have; empty ones are hidden.
 links:
-  arxiv: ""        # e.g. https://arxiv.org/a/franke_t_1
-  orcid: ""        # e.g. https://orcid.org/0000-0000-0000-0000
-  scholar: ""      # Google Scholar profile URL
-  github: ""       # e.g. https://github.com/USERNAME
+  arxiv: "https://arxiv.org/search/?searchtype=author&query=Franke,Tyler"        # e.g. https://arxiv.org/a/franke_t_1
+  orcid: "https://orcid.org/0009-0000-6353-0234"        # e.g. https://orcid.org/0000-0000-0000-0000
+  scholar: "https://scholar.google.com/citations?hl=fr&user=ysSOKa8AAAAJ"      # Google Scholar profile URL
+  # github: ""       # e.g. https://github.com/USERNAME
 
 plugins:
   - jekyll-sitemap
