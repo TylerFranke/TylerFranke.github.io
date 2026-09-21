@@ -32,7 +32,6 @@
   "knowsAbout": {{ site.author.research_topics | jsonify }}{% assign same = "" | split: "" %}{% for l in site.links %}{% if l[1] != "" %}{% assign same = same | push: l[1] %}{% endif %}{% endfor %}{% if same.size > 0 %},
   "sameAs": {{ same | jsonify }}{% endif %}
 }
-<meta name="google-site-verification" content="ZDH6PehL3hn3zHkHQya5FzUFcQ-cdzx7gZxmrIrH430" />
 </script>
 
 <link rel="icon" href="{{ '/favicon.svg' | relative_url }}" type="image/svg+xml">
