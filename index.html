@@ -98,7 +98,7 @@ layout: default
 
   {% if conferences.size > 0 %}
   <section class="wrap" id="conferences">
-    <h2>Conferences attended</h2>
+    <h2>Conference, workshop and school attendance</h2>
     <ul class="entries">
       {% for c in conferences %}
       <li>
@@ -123,6 +123,23 @@ layout: default
         <div>
           <p class="title">{{ v.institution }}</p>
           <p class="meta">{{ v.location }}{% if v.host %}. Hosted by {{ v.host }}{% endif %}{% if v.duration %}, {{ v.duration }}{% endif %}</p>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+    {% if upcoming.size > 0 %}
+  <section class="wrap" id="upcoming">
+    <h2>Upcoming travel</h2>
+    <ul class="entries">
+      {% for c in upcoming %}
+      <li>
+        <span class="when"><time datetime="{{ c.date | date: '%Y-%m' }}">{{ c.date | date: "%b %Y" }}</time></span>
+        <div>
+          <p class="title">{% if c.url %}<a href="{{ c.url }}">{{ c.name }}</a>{% else %}{{ c.name }}{% endif %}</p>
+          <p class="meta">{{ c.location }}{% if c.note %}. {{ c.note }}{% endif %}</p>
         </div>
       </li>
       {% endfor %}
