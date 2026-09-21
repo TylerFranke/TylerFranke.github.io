@@ -1,0 +1,26 @@
+# Teaching. Shown in the order written here (put the newest first).
+#
+# - course:      "Course name"
+#   role:        "Teaching assistant"
+#   institution: "University"
+#   term:        "Winter semester 2026/27"
+
+- course:      "Einführung in die Kategorientheorie"
+  role:        "Bachelor seminar coordinator"
+  institution: "Universität Hamburg"
+  term:        "Winter semester 2026/27"
+
+- course:      "Methods of mathematical physics"
+  role:        "Teaching assistant"
+  institution: "University of Melbourne"
+  term:        "2023 and 2024"
+
+- course:      "Linear algebra"
+  role:        "Teaching assistant"
+  institution: "University of Melbourne"
+  term:        "2024"
+
+- course:      "Calculus 2"
+  role:        "Teaching assistant"
+  institution: "University of Melbourne"
+  term:        "2023"

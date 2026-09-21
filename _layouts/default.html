@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+{% include head.html %}
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+{{ content }}
+<footer class="wrap site-footer">
+  <p>&copy; {{ site.time | date: "%Y" }} {{ site.author.name }}. Last updated {{ site.time | date: "%B %Y" }}.</p>
+</footer>
+</body>
+</html>

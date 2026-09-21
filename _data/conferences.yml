@@ -1,0 +1,22 @@
+# Conferences, workshops and schools attended. Sorted by date (newest first).
+#
+# - name:     "Conference name"
+#   location: "City, Country"
+#   date:     2026-05-01           # start date, YYYY-MM-DD
+#   url:      "https://..."        # optional
+#   note:     "Gave a talk"        # optional
+
+- name:     "BTW6: The Volume Conjecture: From Some TQFTs to Recent Developments"
+  location: "Fréjus, France"
+  date:     2026-05-01
+  note:     "Gave a talk"
+
+- name:     "The Physics and Mathematics of Boundaries, Impurities, and Defects, Isaac Newton Institute"
+  location: "Cambridge, United Kingdom"
+  date:     2025-09-01
+  note:     "Gave a gong-show presentation"
+
+- name:     "Tensor Categories, Quantum Symmetries, and Mathematical Physics, MATRIX Institute"
+  location: "Creswick, Australia"
+  date:     2024-11-01
+  note:     "Gave a contributed talk"

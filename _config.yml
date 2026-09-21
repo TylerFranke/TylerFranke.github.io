@@ -1,0 +1,47 @@
+# ---------------------------------------------------------------
+#  Site settings. After editing this file, GitHub rebuilds the
+#  site automatically within a minute or two.
+# ---------------------------------------------------------------
+
+# Your GitHub Pages address. If your repository is called
+# <username>.github.io, this is https://<username>.github.io
+url: "https://USERNAME.github.io"
+baseurl: ""            # leave empty for a <username>.github.io repository
+
+title: "Tyler Franke"
+# Shown in search-engine results under the page title (aim for ~150 characters).
+description: "Tyler Franke is a PhD student in mathematics at Universität Hamburg working on integrable systems, skein theory and mathematical physics."
+lang: en
+
+author:
+  name: "Tyler Franke"
+  short_name: "T. Franke"        # highlighted in bold in author lists
+  position: "PhD student in mathematics"
+  affiliation: "Universität Hamburg"
+  affiliation_url: "https://www.math.uni-hamburg.de/"
+  email: "tyler.franke@uni-hamburg.de"
+  # Replace with your own photo, e.g. /assets/img/photo.jpg (portrait, roughly 4:5)
+  photo: "/assets/img/photo-placeholder.svg"
+  cv: "/assets/cv.pdf"
+  alumni_of: "University of Melbourne"
+  research_topics:
+    - "Mathematical physics"
+    - "Integrable systems"
+    - "Skein theory"
+    - "Topological quantum field theory"
+    - "Tensor categories"
+
+# Profile links: fill in any you have; empty ones are hidden.
+links:
+  arxiv: ""        # e.g. https://arxiv.org/a/franke_t_1
+  orcid: ""        # e.g. https://orcid.org/0000-0000-0000-0000
+  scholar: ""      # Google Scholar profile URL
+  github: ""       # e.g. https://github.com/USERNAME
+
+plugins:
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

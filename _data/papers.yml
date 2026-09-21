@@ -1,0 +1,17 @@
+# Papers and preprints. Add a new entry anywhere; the list is sorted by year
+# (newest first). Only title, authors and year are required.
+#
+# - title:   "Paper title"
+#   authors: "A. Author, T. Franke"
+#   journal: "Journal name, volume, article number"   # leave out for preprints
+#   year:    2026
+#   arxiv:   "2601.01234"          # arXiv identifier only
+#   doi:     "10.xxxx/yyyy"        # DOI only, without https://doi.org/
+#   pdf:     "/assets/papers/file.pdf"   # optional, a PDF in this repository
+#   note:    "Preprint"            # optional short note
+
+- title:   "Duality and hidden symmetry breaking in the q-deformed Affleck-Kennedy-Lieb-Tasaki model"
+  authors: "T. Franke, T. Quella"
+  journal: "SciPost Physics Core 7, 078"
+  year:    2024
+  doi:     "10.21468/SciPostPhysCore.7.4.078"

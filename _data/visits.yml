@@ -1,0 +1,15 @@
+# Research visits. Sorted by date (newest first).
+# Delete the example below and add your own. If this file has no
+# entries, the section disappears from the page.
+#
+# - institution: "Institution name"
+#   host:        "Prof. Host Name"     # optional
+#   location:    "City, Country"
+#   date:        2026-03-01            # start date, YYYY-MM-DD
+#   duration:    "2 weeks"             # optional
+
+- institution: "Lorem Ipsum Institute"
+  host:        "Prof. Dolor Sit"
+  location:    "Amet, Consectetur"
+  date:        2026-03-01
+  duration:    "2 weeks"

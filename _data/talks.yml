@@ -1,0 +1,38 @@
+# Talks given. Sorted by date automatically (newest first).
+# Always write dates as YYYY-MM-DD; only the month and year are shown,
+# so the day can be approximate (it only decides the order within a month).
+#
+# - title:    "Talk title"
+#   event:    "Seminar or conference name"
+#   location: "City, Country"
+#   date:     2026-05-01
+#   kind:     "Invited talk"         # optional
+#   url:      "https://..."          # optional link to the event
+#   slides:   "/assets/slides/file.pdf"   # optional
+
+- title:    "Turaev–Viro TQFTs and the relation with the WRT TQFT"
+  event:    "BTW6: The Volume Conjecture: From Some TQFTs to Recent Developments"
+  location: "Fréjus, France"
+  date:     2026-05-20
+
+- title:    "Constructions of braided module categories"
+  event:    "Algebra and mathematical physics research seminar, Universität Hamburg"
+  location: "Hamburg, Germany"
+  date:     2026-05-01
+
+- title:    "The reflection equation"
+  event:    "Junior ZMP Seminar, DESY"
+  location: "Hamburg, Germany"
+  date:     2026-01-01
+
+- title:    "Integrable systems and skein theory"
+  event:    "The Physics and Mathematics of Boundaries, Impurities, and Defects, Isaac Newton Institute"
+  location: "Cambridge, United Kingdom"
+  date:     2025-09-01
+  kind:     "Gong-show presentation"
+
+- title:    "Dualities in the q-deformed Affleck-Kennedy-Lieb-Tasaki model"
+  event:    "Tensor Categories, Quantum Symmetries, and Mathematical Physics, MATRIX Institute"
+  location: "Creswick, Australia"
+  date:     2024-11-01
+  kind:     "Contributed talk"
