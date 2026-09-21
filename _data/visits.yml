@@ -8,8 +8,3 @@
 #   date:        2026-03-01            # start date, YYYY-MM-DD
 #   duration:    "2 weeks"             # optional
 
-- institution: "Lorem Ipsum Institute"
-  host:        "Prof. Dolor Sit"
-  location:    "Amet, Consectetur"
-  date:        2026-03-01
-  duration:    "2 weeks"
