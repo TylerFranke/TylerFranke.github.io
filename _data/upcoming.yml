@@ -5,3 +5,8 @@
 #   date:     2026-05-01           # start date, YYYY-MM-DD
 #   url:      "https://..."        # optional
 #   note:     "Gave a talk"        # optional
+
+- name:     "Visiting Adrien Brochier"
+   location: "Paris, France"
+   date:     2026-10-12          
+   note:     "One week visit, I will talk in the topology seminar"       
