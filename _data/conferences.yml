@@ -6,14 +6,42 @@
 #   url:      "https://..."        # optional
 #   note:     "Gave a talk"        # optional
 
+- name:     "Future directions in tensor categories"
+  location: "Bonn, Germany"
+  date:     August 2026
+  url: https://math-events.uni-bonn.de/event/838/
+
+- name:     "Global categorical symmetries 2026, Institut Henri Poincaré"
+  location: "Paris, France"
+  date:     June 2026
+  url: https://indico.math.cnrs.fr/event/14721/overview
+  
 - name:     "BTW6: The Volume Conjecture: From Some TQFTs to Recent Developments"
   location: "Fréjus, France"
   date:     May 2026
+  url: https://btw.pages.math.cnrs.fr/BTW6/btw6.html
+
+- name:     "Scottish Talbot On Algebra and Topology"
+  location: "Crianlarich, Scotland"
+  date:     January 2026
+  url: https://sites.google.com/view/stoat-workshop/home
+
+- name:     "CFT: Algebraic, Topological and probabilistic approaches in Conformal Field Theory, Institut Pascal"
+  location: "Paris, France"
+  date:     October 2025
+  url: https://indico.math.cnrs.fr/event/14721/overview
 
 - name:     "The Physics and Mathematics of Boundaries, Impurities, and Defects, Isaac Newton Institute"
   location: "Cambridge, United Kingdom"
   date:     September 2025
+  url: https://indico.ijclab.in2p3.fr/event/11570/
+
+- name:     "2025 SCGCS School - Topological Symmetries and Defects in Quantum Field Theory"
+  location: "Les Diablerets, Switzerland"
+  date:     June 2025
+  url: https://indico.global/event/9644/overview
 
 - name:     "Tensor Categories, Quantum Symmetries, and Mathematical Physics, MATRIX Institute"
   location: "Creswick, Australia"
   date:     November 2024
+  url: https://www.matrix-inst.org.au/events/tensor-categories-quantum-symmetries-and-mathematical-physics/
