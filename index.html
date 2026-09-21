@@ -6,6 +6,7 @@ layout: default
 {% assign talks = site.data.talks | default: none | sort: "date" | reverse %}
 {% assign conferences = site.data.conferences | default: none | sort: "date" | reverse %}
 {% assign visits = site.data.visits | default: none | sort: "date" | reverse %}
+{% assign upcoming = site.data.upcoming | default: none | sort: "date" %}
 {% assign teaching = site.data.teaching | default: none %}
 {% capture me %}<span class="me">{{ site.author.short_name }}</span>{% endcapture %}
 
