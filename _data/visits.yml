@@ -8,3 +8,8 @@
 #   date:        2026-03-01            # start date, YYYY-MM-DD
 #   duration:    "2 weeks"             # optional
 
+- Institution:     "Isaac Newton Institute"
+  host: <a href="https://www.newton.ac.uk/event/bid/">BID program</a>
+  location: "Cambridge, United Kingdom"
+  date:     2025-09-15
+  duration: "1 week"
