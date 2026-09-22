@@ -7,7 +7,7 @@
   --muted: #5d6677;
   --rule: #d9dde4;
   --accent: #28577f;
-  --serif: "Newsreader", "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --serif: "Commissioner", "Helvetica", "Arial", Palatino, Georgia, sans-serif;
   --measure: 44rem;
 }
 @media (prefers-color-scheme: dark) {
