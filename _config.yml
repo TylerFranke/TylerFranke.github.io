@@ -30,7 +30,7 @@ author:
 links:
   arxiv: "http://arxiv.org/a/franke_t_1"        # e.g. https://arxiv.org/a/franke_t_1
   orcid: "https://orcid.org/0009-0000-6353-0234"        # e.g. https://orcid.org/0000-0000-0000-0000
-  scholar: "https://scholar.google.com/citations?hl=fr&user=ysSOKa8AAAAJ"      # Google Scholar profile URL
+  scholar: "https://scholar.google.com/citations?user=Z6-Kq40AAAAJ&hl=en&oi=sra"      # Google Scholar profile URL
   # github: ""       # e.g. https://github.com/USERNAME
 
 plugins:
