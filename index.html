@@ -14,6 +14,7 @@ layout: default
   <nav aria-label="Sections">
     <a href="#research">Research</a>
     {% if papers.size > 0 %}<a href="#papers">Papers</a>{% endif %}
+    {% if upcomingtalks.size > 0 %}<a href="#upcoming">Upcoming travel</a>{% endif %}
     {% if talks.size > 0 %}<a href="#talks">Talks</a>{% endif %}
     {% if conferences.size > 0 %}<a href="#conferences">Conference, workshop and school attendance</a>{% endif %}
     {% if upcoming.size > 0 %}<a href="#upcoming">Upcoming travel</a>{% endif %}
@@ -81,6 +82,24 @@ layout: default
   </section>
   {% endif %}
 
+  {% if upcomingtalks.size > 0 %}
+  <section class="wrap" id="talks">
+    <h2>Upcoming talks</h2>
+    <ul class="entries">
+      {% for t in talks %}
+      <li>
+        <span class="when"><time datetime="{{ t.date | date: '%Y-%m' }}">{{ t.date | date: "%b %Y" }}</time></span>
+        <div>
+          <p class="title">{{ t.title }}</p>
+          <p class="meta">{% if t.url %}<a href="{{ t.url }}">{{ t.event }}</a>{% else %}{{ t.event }}{% endif %}, {{ t.location }}{% if t.kind %}. {{ t.kind }}{% endif %}</p>
+          {% if t.slides %}<p class="links"><a href="{{ t.slides | relative_url }}">Slides</a></p>{% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+  
   {% if talks.size > 0 %}
   <section class="wrap" id="talks">
     <h2>Talks</h2>
