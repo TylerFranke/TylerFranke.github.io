@@ -1,1 +1,11 @@
+# Upcoming travel. Sorted by date (soonest first).
+#
+# - name:     "Event name"
+#   location: "Seminar, University"
+#   date:     2026-05-01           # start date, YYYY-MM-DD
+#   url:      "https://..."        # optional
+#   note:     "Gave a talk"        # optional
 
+-  title:     "TBA"
+   location: "<a href="https://www.imj-prg.fr/gestion/evenement/affSeance/11044">Séminaire de Topologie</a>, Institut de Mathématiques de Jussieu-Paris Rive Gauche"
+   date:     2026-10-13   
