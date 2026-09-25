@@ -87,7 +87,7 @@ layout: default
   <section class="wrap" id="upcomingtalks">
     <h2>Upcoming talks</h2>
     <ul class="entries">
-      {% for t in talks %}
+      {% for t in upcomingtalks %}
       <li>
         <span class="when"><time datetime="{{ t.date | date: '%Y-%m' }}">{{ t.date | date: "%b %Y" }}</time></span>
         <div>
