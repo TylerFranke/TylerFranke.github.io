@@ -3,6 +3,7 @@ layout: default
 ---
 {% assign none = "" | split: "" %}
 {% assign papers = site.data.papers | default: none | sort: "year" | reverse %}
+{% assign upcomingtalks = site.data.upcomingtalks | default: none | sort: "date" | reverse %}
 {% assign talks = site.data.talks | default: none | sort: "date" | reverse %}
 {% assign conferences = site.data.conferences | default: none | sort: "date" | reverse %}
 {% assign visits = site.data.visits | default: none | sort: "date" | reverse %}
@@ -14,7 +15,7 @@ layout: default
   <nav aria-label="Sections">
     <a href="#research">Research</a>
     {% if papers.size > 0 %}<a href="#papers">Papers</a>{% endif %}
-    {% if upcomingtalks.size > 0 %}<a href="#upcoming">Upcoming travel</a>{% endif %}
+    {% if upcomingtalks.size > 0 %}<a href="#upcomingtalks">Upcoming talks</a>{% endif %}
     {% if talks.size > 0 %}<a href="#talks">Talks</a>{% endif %}
     {% if conferences.size > 0 %}<a href="#conferences">Conference, workshop and school attendance</a>{% endif %}
     {% if upcoming.size > 0 %}<a href="#upcoming">Upcoming travel</a>{% endif %}
