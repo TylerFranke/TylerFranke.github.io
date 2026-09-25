@@ -7,5 +7,5 @@
 #   note:     "Gave a talk"        # optional
 
 -  title:     "TBA"
-   location: "<a href="https://www.imj-prg.fr/gestion/evenement/affSeance/11044">Séminaire de Topologie</a>, Institut de Mathématiques de Jussieu-Paris Rive Gauche"
+   location: <a href="https://www.imj-prg.fr/gestion/evenement/affSeance/11044">Séminaire de Topologie</a>, Institut de Mathématiques de Jussieu-Paris Rive Gauche"
    date:     2026-10-13   
