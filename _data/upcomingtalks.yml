@@ -1,6 +1,6 @@
 # Upcoming travel. Sorted by date (soonest first).
 #
-# - name:     "Event name"
+# - title:     "Talk title"
 #   location: "Seminar, University"
 #   date:     2026-05-01           # start date, YYYY-MM-DD
 #   url:      "https://..."        # optional
