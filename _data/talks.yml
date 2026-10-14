@@ -10,6 +10,11 @@
 #   url:      "https://..."          # optional link to the event
 #   slides:   "/assets/slides/file.pdf"   # optional
 
+
+-  title:     "Braided module categories from small braidings"
+   location: <a href="https://www.imj-prg.fr/gestion/evenement/affSeance/11044">Séminaire de Topologie</a>, Institut de Mathématiques de Jussieu-Paris Rive Gauche"
+   date:     2026-10-13   
+
 - title:    "Turaev–Viro TQFTs and the relation with the WRT TQFT"
   event:    "BTW6: The Volume Conjecture: From Some TQFTs to Recent Developments"
   location: "Fréjus, France"
