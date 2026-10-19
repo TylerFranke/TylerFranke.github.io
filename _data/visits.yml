@@ -8,11 +8,17 @@
 #   date:        2026-03-01            # start date, YYYY-MM-DD
 #   duration:    "2 weeks"             # optional
 
+-  Institution:     "Institut de Mathématiques de Jussieu-Paris Rive Gauche"
+   host: "Adrien Brochier"
+   location: "Paris, France"
+   date:     2026-10-12          
+   duration:     "One week"  
+
 - Institution:     "Isaac Newton Institute"
   host: <a href="https://www.newton.ac.uk/event/bid/">BID program</a>
   location: "Cambridge, United Kingdom"
   date:     2025-09-15
-  duration: "1 week"
+  duration: "One week"
 
 - Institution:     "University of Edinburgh, School of Mathematics"
   host: <a href="https://jmhbrown.github.io/">Jennifer Brown</a>
