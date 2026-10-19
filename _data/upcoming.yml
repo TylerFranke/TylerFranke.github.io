@@ -4,9 +4,4 @@
 #   location: "City, Country"
 #   date:     2026-05-01           # start date, YYYY-MM-DD
 #   url:      "https://..."        # optional
-#   note:     "Gave a talk"        # optional
-
--  name:     "Visiting Adrien Brochier"
-   location: "Paris, France"
-   date:     2026-10-12          
-   note:     "Visiting 12.10 to 16.10, I will talk in the topology seminar"       
+#   note:     "Gave a talk"        # optional     
