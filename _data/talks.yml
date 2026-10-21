@@ -15,20 +15,20 @@
    location: <a href="https://www.imj-prg.fr/gestion/evenement/affSeance/11044">Séminaire de Topologie</a>, Institut de Mathématiques de Jussieu-Paris Rive Gauche"
    date:     2026-10-13   
 
-- title:    "Turaev–Viro TQFTs and the relation with the WRT TQFT"
-  event:    "BTW6: The Volume Conjecture: From Some TQFTs to Recent Developments"
-  location: "Fréjus, France"
-  date:     2026-05-20
+#- title:    "Turaev–Viro TQFTs and the relation with the WRT TQFT"
+#  event:    "BTW6: The Volume Conjecture: From Some TQFTs to Recent Developments"
+#  location: "Fréjus, France"
+#  date:     2026-05-20
 
 - title:    "Constructions of braided module categories"
   event:    "Algebra and mathematical physics research seminar, Universität Hamburg"
   location: "Hamburg, Germany"
   date:     2026-05-05
 
-- title:    "The reflection equation"
-  event:    "Junior ZMP Seminar, DESY"
-  location: "Hamburg, Germany"
-  date:     2026-01-29
+#- title:    "The reflection equation"
+#  event:    "Junior ZMP Seminar, DESY"
+#  location: "Hamburg, Germany"
+#  date:     2026-01-29
 
 - title:    "Integrable systems and skein theory"
   event:    "The Physics and Mathematics of Boundaries, Impurities, and Defects, Isaac Newton Institute"
