@@ -1,0 +1,16 @@
+# In-progress papers. Add a new entry anywhere; the list is sorted by year
+# (newest first). Only title, authors and year are required.
+#
+# - title:   "Paper title"
+#   authors: "A. Author, T. Franke"
+#   journal: "Journal name, volume, article number"   # leave out for preprints
+#   year:    2026
+#   arxiv:   "2601.01234"          # arXiv identifier only
+#   doi:     "10.xxxx/yyyy"        # DOI only, without https://doi.org/
+#   pdf:     "/assets/papers/file.pdf"   # optional, a PDF in this repository
+#   note:    "Preprint"            # optional short note
+
+- title:   "Braided module categories from small braidings"
+  authors: "T. Franke, I. Runkel, V. Schomerus"
+  pdf: "assets/papers/Small_Braidings_DRAFT.pdf"
+  note: "Work-in-progress, to be finished in Autumn/Winter 2026"
