@@ -3,6 +3,7 @@ layout: default
 ---
 {% assign none = "" | split: "" %}
 {% assign papers = site.data.papers | default: none | sort: "year" | reverse %}
+{% assign drafts = site.data.drafts | default: none | sort: "year" | reverse %}
 {% assign upcomingtalks = site.data.upcomingtalks | default: none | sort: "date" | reverse %}
 {% assign talks = site.data.talks | default: none | sort: "date" | reverse %}
 {% assign conferences = site.data.conferences | default: none | sort: "date" | reverse %}
@@ -84,6 +85,30 @@ layout: default
   </section>
   {% endif %}
 
+  {% if drafts.size > 0 %}
+  <section class="wrap" id="papers">
+    <h2>Works-in-progress</h2>
+    <ol class="entries" reversed>
+      {% for p in drafts %}
+      <li>
+        <span class="when">{{ p.year }}</span>
+        <div>
+          <p class="title">{% if p.doi %}<a href="https://doi.org/{{ p.doi }}">{{ p.title }}</a>{% elsif p.arxiv %}<a href="https://arxiv.org/abs/{{ p.arxiv }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</p>
+          <p class="meta">{{ p.authors | replace: site.author.short_name, me }}{% if p.journal %}. <cite>{{ p.journal }}</cite>{% endif %}{% if p.note %}. {{ p.note }}{% endif %}</p>
+          {% if p.arxiv or p.doi or p.pdf %}
+          <p class="links">
+            {% if p.arxiv %}<a href="https://arxiv.org/abs/{{ p.arxiv }}">arXiv:{{ p.arxiv }}</a>{% endif %}
+            {% if p.doi %}<a href="https://doi.org/{{ p.doi }}">DOI</a>{% endif %}
+            {% if p.pdf %}<a href="{{ p.pdf | relative_url }}">PDF</a>{% endif %}
+          </p>
+          {% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ol>
+  </section>
+  {% endif %}
+  
   {% if upcomingtalks.size > 0 %}
   <section class="wrap" id="upcomingtalks">
     <h2>Upcoming talks</h2>
