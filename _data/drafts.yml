@@ -10,7 +10,6 @@
 #   pdf:     "/assets/papers/file.pdf"   # optional, a PDF in this repository
 #   note:    "Preprint"            # optional short note
 
-- title:   "Braided module categories from small braidings"
+- title:   "Skein modules with line and point defects"
   authors: "T. Franke, I. Runkel, V. Schomerus"
-  pdf: "assets/Small_Braidings_DRAFT.pdf"
-  note: "Work-in-progress, to be finished in Autumn/Winter 2026"
+  note: "In preparation, to be finished in Winter/Spring 2027"
