@@ -10,6 +10,12 @@
 #   pdf:     "/assets/papers/file.pdf"   # optional, a PDF in this repository
 #   note:    "Preprint"            # optional short note
 
+
+- title:   "Braided module categories from small braidings"
+  authors: "T. Franke, I. Runkel, V. Schomerus"
+  arxiv: "2611.16900"
+  year: 2026
+  
 - title:   "Duality and hidden symmetry breaking in the q-deformed Affleck-Kennedy-Lieb-Tasaki model"
   authors: "T. Franke, T. Quella"
   journal: "SciPost Physics Core 7, 078"
