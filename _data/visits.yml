@@ -9,7 +9,7 @@
 #   duration:    "2 weeks"             # optional
 
 -  Institution:     "Institut de Mathématiques de Jussieu-Paris Rive Gauche"
-   host: "Adrien Brochier"
+   host: <a href="https://abrochier.org/">Adrien Brochier</a>
    location: "Paris, France"
    date:     2026-10-12          
    duration:     "One week"  
