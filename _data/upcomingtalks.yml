@@ -11,3 +11,9 @@
   event: "Seminario Q-Math, Instituto de Ciencias Matemáticas"
   date:     2027-01
   url: "https://www.icmat.es/"
+
+- title:     "TBD"
+  location: "Dijon, France"
+  event: "Géométrie, Algèbre, Dynamique et Topologie, Institut de Mathématiques de Bourgogne"
+  date:     2027-04
+  url: "https://math.ube.fr/agenda/categorie/geometrie-algebre-dynamique-topologie"
