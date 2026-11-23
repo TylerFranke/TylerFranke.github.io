@@ -9,4 +9,4 @@
 - name:     "Research visit"
   location: "Dijon, France"
   date:     2027-04  
-  note:     "Visiting <a href="https://www.math.univ-toulouse.fr/~mfaitg/">Matthieu Faitg<\a>" 
+  host:     <a href="https://www.math.univ-toulouse.fr/~mfaitg/">Matthieu Faitg<\a> 
