@@ -6,6 +6,12 @@
 #   url:      "https://..."        # optional
 #   note:     "Gave a talk"        # optional
 
+- title:     "Skein-theoretic perspectives of the combinatorial quantisation of Hamiltonian Chern--Simons theory"
+  location: "Hamburg, Germany"
+  event: "ZMP Seminar"
+  date:     2026-12-03
+  url: "https://www.zmp.uni-hamburg.de/events/zmp-seminar.html#v-46935255"
+
 - title:     "TBD"
   location: "Madrid, Spain"
   event: "Seminario Q-Math, Instituto de Ciencias Matemáticas"
