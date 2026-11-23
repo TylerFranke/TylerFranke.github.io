@@ -6,7 +6,7 @@
 #   url:      "https://..."        # optional
 #   note:     "Gave a talk"        # optional     
 
-- name:     "Research visit"
+- name:     "Visiting Matthieu Faitg"
   location: "Dijon, France"
   date:     2027-04  
-  host:     <a href="https://www.math.univ-toulouse.fr/~mfaitg/">Matthieu Faitg<\a> 
+  url:     "https://www.math.univ-toulouse.fr/~mfaitg/" 
