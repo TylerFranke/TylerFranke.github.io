@@ -5,3 +5,8 @@
 #   date:     2026-05-01           # start date, YYYY-MM-DD
 #   url:      "https://..."        # optional
 #   note:     "Gave a talk"        # optional     
+
+- name:     "Research visit"
+  location: "Dijon, France"
+  date:     2027-04  
+  note:     "Visiting <a href="https://www.math.univ-toulouse.fr/~mfaitg/">Matthieu Faitg<\a>" 
